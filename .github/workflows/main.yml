@@ -1,11 +1,12 @@
 name: Hola Mundo Workflow
 on:
- push:
- branches:
- - main
+  push:
+    branches:
+      - main
 jobs:
- hola-mundo:
- runs-on: ubuntu-latest
- steps:
- - name: Print greeting
- run: echo "Hola Mundo!"
+  hola-mundo: null
+  runs-on: ubuntu-latest
+  steps:
+    - name: Print greeting
+run: echo "Hola Mundo!"
+
