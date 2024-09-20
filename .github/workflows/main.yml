@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   hola-mundo: null
-  runs-on: ubuntu-latest
-  steps:
+   runs-on: ubuntu-latest
+   steps:
     - name: Print greeting
 run: echo "Hola Mundo!"
