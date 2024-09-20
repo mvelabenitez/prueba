@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  hola-mundo: null
+  hola-mundo: 
    runs-on: ubuntu-latest
    steps:
     - name: Print greeting
